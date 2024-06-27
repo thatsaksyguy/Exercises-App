@@ -1,0 +1,123 @@
+/* 
+This style sheet can be used for reference
+but not for an assignment.
+*/
+
+/* Center the body in the middle of the viewport 
+by defining min and max widths with auto right/left margins
+*/
+body {
+    color: blueviolet;
+    background-color: azure;
+    font-family: MingLiU_HKSCS-ExtB;
+    font-size: 25px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+/* PAGE LAYOUT 
+Consistant design for each page layout block. 
+*/
+header {
+    background-color: aquamarine;
+    color: cadetblue;
+    border: groove;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+}
+main {
+    background-color: darkslategray;
+    color: darkred;
+    border: thick;
+    padding: 20px;
+}
+article, footer {
+    
+}
+
+/* NAVIGATION
+Simple changes to make anchors look like buttons. 
+*/
+nav {
+  background-color: azure;
+  color: whitesmoke;
+  border: medium;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 4px;
+  padding: 4px;
+  text-decoration: none;
+  vertical-align: bottom;
+}
+nav a {
+  background-color: lightskyblue;
+  color:whitesmoke;
+  border: ridge;
+  font-size: 25px;
+  font-weight:bold;
+  margin:4px;
+  padding:4px;
+  text-decoration: blink;
+  vertical-align: middle;
+}
+/* Reverse the colors when hovering to give the user some interaction feedback.*/
+nav a:hover {
+  background-color: royalblue;
+  color: cornsilk;
+  border: ridge;
+  font-size: 25px;
+  font-weight:bold;
+  margin:4px;
+  padding:4px;
+  text-decoration: blink;
+  vertical-align: middle;
+}
+
+/* TABLE */
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+caption {color:slategray;}
+tr td, td th {
+  border: 2px inset;
+  padding: 8px;
+}
+tr:nth-child(even){background-color:rgb(245, 244, 244);}
+th {
+  font-weight:normal;
+  padding: 4px;
+  background-color: lightgray;
+}
+
+
+/* FORM */
+fieldset {
+  border:1px solid gray;
+}
+legend {
+  background-color:whitesmoke;
+}
+label {
+  display:block;
+  margin-top:20px;
+}
+input {
+    padding: 4px;
+    font-family:;
+}
+button {
+    padding:;
+    font-family: MingLiU_HKSCS-ExtB;
+}
+    button:hover {
+        padding:;
+        font-family: MingLiU_HKSCS-ExtB;
+    }
+select {
+    padding:;
+    font-family: MingLiU_HKSCS-ExtB;
+}
